@@ -1,0 +1,184 @@
+body {
+    background-color: #DDDDDD;
+}
+
+@font-face {
+    font-family: newpo;
+    src: url(./img/font.ttf);
+}
+
+.tab
+{
+    font-family: newpo;
+    font-size: 4em;
+    transition:1.5s;
+    border:4px solid;
+    margin: 0 auto;
+    background-image: url(./img/tab.jpg);
+    position:relative;
+    top: 150px;
+    width: 1000px;
+    height:653px;
+}
+
+.panier
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:400px;
+    height:246px;
+    position: absolute;
+    top: -69px;
+    left: 750px;
+    background-image:url(./img/panier.png);
+    background-repeat:no-repeat;
+    transform: rotate(30deg);
+}
+
+.pink{
+    font-size:1.0em;
+    width:150px;
+    height:200px;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    background-image:url(./img/pink.png);
+    background-repeat:no-repeat;
+    transition: 1s ;
+}
+.pink:hover
+{
+    font-size: 1.5em;
+    transition: 1s ;
+}
+
+.purple
+{
+    width:125px;
+    height:125px;
+    position: absolute;
+    top: 10px;
+    left: 450px;
+    background-image:url(./img/purple.png);
+}
+.login
+{
+    opacity: 0;
+    transition: 5s ;
+    position:absolute;
+    top:500px;
+    left:990px;
+    background-image: url(./img/papier.png);
+    background-repeat:no-repeat;
+    width:200px;
+    height: 0px;
+}
+.login2
+{
+    opacity: 0;
+    transition: 5s ;
+    position:absolute;
+    top:400px;
+    left:-200px;
+    background-image: url(./img/papier.png);
+    background-repeat:no-repeat;
+    width:200px;
+    height: 0px;
+}
+.blue
+{
+    width:125px;
+    height:125px;
+    position: absolute;
+    top: 386px;
+    left: 455px;
+    background-image:url(./img/blue.png);
+    transition: 1s ;
+}
+.red
+{
+    width:125px;
+    height:125px;
+    position: absolute;
+    top: 370px;
+    left: 800px;
+    background-image:url(./img/red.png);
+    transition: 1s ;
+}
+
+.red:hover
+{
+    font-size: 1.3em;
+    transition: 1s ;
+}
+.shop,.god,.user
+{
+    border: 4px solid;
+    transition: 6s;
+    position: absolute;
+    top: 700px;
+    width: 1000px;
+    font-size: 16px;
+    font-family: monospace;
+    background-color: #DDDDDD;
+}
+
+.big_post_it
+{
+    width:200px;
+    height:200px;
+    position: absolute;
+    top: -24px;
+    left: -159px;
+    background-image:url(./img/postit.png);
+}
+
+.green
+{
+    width:125px;
+    height:125px;
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    background-image:url(./img/green.png);
+    transition: 1s ;
+}
+
+.green:hover
+{
+    font-size: 1.2em;
+    transition: 1s ;
+}
+.blue:hover
+{
+    font-size: 1.2em;
+    transition: 1s ;
+}
+.arrow
+{
+    width:200px;
+    height:200px;
+    position: absolute;
+    top: 520px;
+    left: 831px;
+    background-image:url(./img/arrow.png);
+    background-repeat:no-repeat;
+}
+
+.arrow2
+{
+    width:125px;
+    height:125px;
+    position: absolute;
+    top: 320px;
+    left: 31px;
+    background-image:url(./img/arrow2.png);
+    background-repeat:no-repeat;
+}
+.bonjour
+{
+    position: absolute;
+    top: 200px;
+    left: 420px;
+}
